@@ -1,0 +1,149 @@
+/******************** 自定义字体 ********************/
+@font-face {
+  font-family: 'CascadiaMono';
+  src: url('https://cdn.jsdelivr.net/gh/petrel1024/CDN@master/resource/font/CascadiaMono.woff2');
+}
+
+/******************** 消除暗黑模式下 nav 的黑色悬浮块 ********************/
+[data-theme='dark'] #page-header:before {
+  background-color: transparent !important;
+}
+
+/******************** 页脚透明 ********************/
+#footer {
+  background: transparent !important;
+}
+
+/******************** 滚动条 *********************/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #009688;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #009688;
+}
+
+/******************** 目录隐藏按钮颜色 ********************/
+#toggle-sidebar {
+  color: #009688 !important;
+}
+
+/******************** 博主昵称颜色 ********************/
+.author-info__name {
+  color: #009688;
+}
+
+/******************** 顶部颜色 ********************/
+/* 顶部导航栏颜色 */
+#nav a {
+  color: #ffffff;
+}
+
+/* 标题颜色 */
+#page-header #site_title {
+  color: #ffffff;
+}
+
+/*!********************  a标签默认颜色 ********************!*/
+
+/* 文章内的链接的颜色 */
+#article-container a {
+  color: #009688;
+  text-decoration: none;
+}
+
+/* 文章内的链接 - 鼠标悬停时的颜色 */
+#article-container a:hover {
+  color: #4c3db6;
+  text-decoration: none;
+}
+
+/* 左侧目录及版权链接 */
+a {
+  color: #009688;
+}
+
+/* 左侧目录及版权链接 - 鼠标悬停时的颜色 */
+a:hover {
+  color: #4c3db6;
+  text-decoration: none;
+}
+
+/* 版权链接颜色及去掉下划线、 */
+.layout_post .post-copyright .post-copyright-info a {
+  color: #4c3db6;
+  text-decoration: none;
+}
+
+/* 版权 - 鼠标悬停颜色 */
+.layout_post .post-copyright .post-copyright-info a:hover {
+  color: #009688;
+}
+
+/******************** 页脚a标签字体颜色 ********************/
+#footer-wrap a {
+  color: #9370DB;
+}
+
+/******************** 页脚自定义字段字体颜色 ********************/
+/* 也就是配置文件里的footer_custom_text */
+.footer_custom_text {
+  color: #009688;
+}
+
+/******************** 评论框样式 ********************/
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+/* 提交按钮 */
+#vcomment button {
+  padding: 0.3rem 0.8rem;
+  border-color: #fff;
+  background-color: #e58a8a;
+  color: #fff;
+  font-size: 0.7rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* 评论区代码块 */
+.v[data-class=v] code {
+  color: #c7254e;
+  background-color: #F9F2F4;
+}
+
+/* 设置评论框 */
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+/* 取消回复聊天框 */
+.vquote .vcard {
+  box-shadow: 2px 2px 5px transparent;
+  background: rgba(255, 255, 255, 0.0);
+  padding: 0px;
+}
