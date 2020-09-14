@@ -387,7 +387,11 @@
       
       <categories>
           
-          <category> 未分类 </category>
+          <category> 数据库 </category>
+          
+          <category> 关系型 </category>
+          
+          <category> MySQL </category>
           
       </categories>
       
@@ -410,6 +414,16 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 数据库 </tag>
+            
+            <tag> 关系型 </tag>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
       
     </entry>
     
