@@ -1,5 +1,8 @@
-// 隐藏首页banner图
-var full_page = document.getElementsByClassName("full_page");
-if (full_page.length != 0) {
-  full_page[0].style.background = "transparent";
+// 如果不显示侧边栏，修改描述信息的位置
+var postBg = document.getElementsByClassName("post-bg");
+var postInfo = document.getElementById("post-info");
+if (postBg.length != 0) {
+  if (postBg[0].previousSibling.id != "sidebar") {
+    postInfo.style.padding = "0 16%";
+  }
 }
